@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="../CSS_Files/style.css">
+    <title>Main Page</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+            <a href="main.html" class="navbar-brand">
+                <i class="fa-solid fa-house"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="mobile" data-bs-target="#collapsible">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="mobile" class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto">
+                    <li>
+                        <a href="main.html" class="nav-link active">Home</a>
+                    </li>
+                    <li>
+                        <a href="stories.html" class="nav-link">Stories</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input type="text" class="form-control me-1" placeholder="Search">
+                    <button class="btn btn-warning">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="text-center pt-5 mt-5 px-4 border-bottom">
+            <h1 class="display-4 fw-bold">Welcome</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">
+                    to my mind
+                </p>
+                <div class="mb-5 d-grid gap-2 d-md-flex justify-content-md-center">
+                    <button class="btn btn-primary btn-lg">
+                        <i class="fa-solid fa-caret-right"></i>Most Popular Story</button>
+                    <button class="btn btn-outline-secondary btn-lg">
+                        <i class="fa-solid fa-caret-right"></i>Latest Story</button>
+                </div>
+                <div class="overflow-hidden" style="max-height: 45vh;">
+                    <div class="container px-5">
+                        <img src="../Images/typewriter.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" width="700" height="500" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="bg-dark px-4 py-5 text-center text-white">
+            <div class="py-5">
+                <h1 class="display-5 fw-bold">Do you like mystery?</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">
+                        Start reading now!
+                    </p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                        <button class="btn btn-outline-warning btn-lg">
+                            <i class="fa-solid fa-caret-right"></i>Random one</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-lg-4 col-m-6 col-s-12">
+                    <div class="card mb-3 shadow">
+                        <img src="../Images/Anımsama.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Anımsama
+                            </h5>
+                            <p class="card-text">
+                                Onu ilk gördüğüm anı hala dün gibi hatırlıyorum. İncecik bir ağaç dalına oturmuş, 
+                                babasının günlerce uğraşıp, ekip biçtiği, alın teri ile beslediği pancarlara göz kulak oluyordu. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-m-6 col-s-12">
+                    <div class="card mb-3 shadow">
+                        <img src="../Images/Dejavu.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Dejavu
+                            </h5>
+                            <p class="card-text">
+                                -Dur! Bu anı daha önce yaşamıştım!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-m-6 col-s-12">
+                    <div class="card mb-3 shadow">
+                        <img src="../Images/Ölüme Kaçış.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Ölüme Kaçış
+                            </h5>
+                            <p class="card-text">
+                                Ölüm... Adını söyleyince bile tüyleriniz diken diken oldu değil mi? Öyleyse şanslısınız. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-5 bg-dark text-white">
+        <div class="container text-center">
+            <span>All rights reserved. @2030</span>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+        
+    </script>
+
+</body>
+
+</html>
